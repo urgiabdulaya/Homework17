@@ -54,10 +54,11 @@ header {
 
 
 .project2, .project1, .bio, .heroImg {
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    padding: 20px;
     width: 250px;
     height: 250px;
+
    
 }
   .flexContainer {
@@ -72,6 +73,9 @@ header {
   }
 
   .imageBio {
-  align-items: center;
+  align-items: flex-start;
+  display: flex;
+  justify-items: center;
+  height: 484px;
 
   }
